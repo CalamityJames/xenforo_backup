@@ -10,5 +10,4 @@ Made because I hate doing this manually
 - Firstly, download the version of the script you require
 - Save the backup script somewhere you'll remember. For example `/home/backups`
 - You will need to fill out the config variables, such as the database username, password and name.
-- Add a crontab entry to run every night at a time when your site is likely to be less busy
-Something like this will do: `0       3       *       *       *       /home/backups/backup_script.sh` (this will run at 3am every night)
+- Add a crontab entry to run every night at a time when your site is likely to be less busy. Something like this will do: `0       3       *       *       *       /home/backups/backup_script.sh` (this will run at 3am every night)
